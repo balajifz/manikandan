@@ -1,0 +1,142 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>css display table</title>
+	<style>
+		.bala{
+			display: table;
+			width: 400px;
+				border: 2px dotted darkred;
+				    border: 3px #00248085 solid; 
+		
+			margin-left: 100px;
+			padding: 5px;
+		}
+		.mani{ 
+			display: table-row;
+			text-align: center;
+
+
+		}
+		.col{
+			display: table-cell;
+			border: 1px solid teal;
+			padding: 10px;
+
+
+
+			
+
+		}
+		.header{
+			display: table-header-group;
+			font-variant: small-caps;
+			font-weight: bold;
+			background: orange;
+			text-align: center;
+			font-style: arial;
+			color: darkblue;
+		}
+		.fooder{
+			display: table-footer-group;
+			padding: 100px;
+
+		}
+		.caption{
+			
+				text-align:center;
+			
+			font-weight: bold;
+			font-variant: small-caps;
+		    margin-left: 250px;
+		    padding: 20px;
+
+			
+			
+		}
+		.col-group{
+			display: table-column-group;
+		}
+		.tbl-col{
+			display: table-column;
+		}
+		.col3{
+			width:100px;
+			background-color: yellow;
+		}
+		.row-group{
+			display: table-row-group;
+			color: skyblue;
+		}
+
+		
+		
+	</style>
+</head>
+<h1> css display table</h1>
+<body>
+	<div class="caption">friends details</div>
+	
+	<div class="bala">
+		<div class="col-group">
+		<div class="tbl-col">col-1</div>
+		<div class="tbl-col">col-2</div>
+		<div class="tbl-col col3">col-3</div>
+	</div>
+		<div class="header">
+		
+		<div class="mani">
+			
+						
+			<div class="col">name</div>
+			<div class="col">age</div>
+			<div class="col">city</div>
+			
+		
+			
+		</div>
+		</div>
+			<div class="row-group">
+		
+		
+		<div class="mani">
+			
+			<div class="col">pradeep</div>
+			<div class="col">78</div>
+			<div class="col">city</div>
+			
+		</div>
+		<div class="mani">
+			
+			<div class="col">mani</div>
+			<div class="col">76</div>
+			<div class="col">city</div>
+			
+		</div>
+		<div class="mani">
+			
+			<div class="col">surya</div>
+			<div class="col">80</div>
+			<div class="col">city</div>
+			
+		</div>
+	</div>
+		<div class="fooder">
+		<div class="mani">
+			
+						
+			<div class="col">name</div>
+			<div class="col">age</div>
+			<div class="col">city</div>
+			
+		
+			
+		</div>
+		</div>
+		
+	</div>
+	
+
+</body>
+</html>
